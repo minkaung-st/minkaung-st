@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RegistrationForm.YSMEdu</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Registration Form</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Enter phone number" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="courseSelect">Course:</label>
+                                <select class="form-control" id="courseSelect">
+                                    <option>Elementary Physics Class ( Batch 15 )</option>
+                                    <option>Classical Physic Class ( Batch 25 )</option>
+                                    <option>Quantum Physic Class ( Batch 8 )</option>
+                                </select>
+                            </div>
+                              
+                            <div class="form-group">
+                                <label for="dob">Date of Birth:</label>
+                                <input type="date" class="form-control" id="dob" name="dob">
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address:</label>
+                                <textarea class="form-control" id="address" placeholder="Enter address" name="address"></textarea>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                                <label class="form-check-label" for="terms">
+                                    I agree to the <a href="#" data-toggle="modal" data-target="#termsModal">terms and conditions</a>.
+                                </label>
+                            </div>
+                        
+                                <!-- Terms and Conditions Modal -->
+                                <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                        
+                                        <div class="modal-body">
+                                            <p>
+                                                1. By submitting this registration form, you agree to abide by the rules and regulations set forth by the organization.
+                                            </p>
+                                            <p>
+                                                2. The information provided in this form must be accurate and truthful. Any false or misleading information may result in disqualification or termination of membership.
+                                            </p>
+                                            <p>
+                                                3. You acknowledge that any personal information provided will be used in accordance with the organization's privacy policy, which can be found on the organization's website.
+                                            </p>
+                                            <p>
+                                                4. The organization reserves the right to cancel or modify any event or program at any time.
+                                            </p>
+                                            <p>
+                                                5. You agree to behave in a respectful and appropriate manner towards other members and staff of the organization. Any inappropriate behavior may result in disciplinary action or termination of membership.
+                                            </p>
+                                            <p>
+                                                6. The organization is not liable for any injuries, accidents, or damages that may occur during events or programs.
+                                            </p>
+                                            <p>
+                                                7. You understand that participation in any events or programs is voluntary, and you assume all risks and responsibilities associated with such participation.
+                                            </p>
+                                            <p>
+                                                8. Any intellectual property, including but not limited to trademarks, logos, and copyrighted material, displayed on the organization's website or at events or programs, is the property of the organization and may not be used without permission.
+                                            </p>
+                                            <p>
+                                                9. The organization reserves the right to update or modify these terms and conditions at any time without prior notice.
+                                            </p>
+                                            <p>
+                                                10. By submitting this registration form, you acknowledge that you have read and agree to these terms and conditions.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

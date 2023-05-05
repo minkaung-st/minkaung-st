@@ -1,0 +1,344 @@
+*{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* Navigation */
+
+.navbar {
+    margin: 0 0 1px 0;
+}
+.logo-img {
+    width: 120px;
+    height: 100px;
+}
+.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/* Body */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bg-img {
+    width: 100%;
+    height: 83vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../img/bg_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bg-img > .container {
+    margin-top: 130px;
+}
+.bg-img > .container > .row > div > h3 {
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 40px;
+    letter-spacing: 2px; 
+}
+.bg-img > .container > .row > div > h1 {
+    font-size: 40pt;
+    font-family: 'Cormorant Garamond', serif;
+    color: gold;
+    letter-spacing: 10px;
+}
+.bg-img > .container > .row > div > p {
+    color: white;
+    margin-top: 40px;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
+
+
+/* About */
+
+.about > div > p {
+    line-height: 2;
+}
+.about > div > img {
+    border-radius: 20px;
+}
+
+
+/* Game */
+
+.card {
+    border-radius: 30px;
+}
+
+.game {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.game1 {
+    height: 80vh;
+    background-image: url(../img/game1.png); 
+}
+.game2 {
+    height: 70vh;
+    background-image: url(../img/game2.png);
+}
+.game3 {
+    height: 60vh;
+    background-image: url(../img/game3.png);
+}
+.game4 {
+    height: 50vh;
+    background-image: url(../img/game4.png);
+}
+
+.game > h4 {
+    border: 1px solid #bd3b42;
+    border-radius: 50%;
+    width: 50px;
+    padding: 5px;
+    background-color: black;
+}
+.game1 > h4 {  
+    margin: 53vh auto 20px auto;  
+}
+.game2 > h4 {  
+    margin: 42vh auto 20px auto;
+}
+.game3 > h4 {
+    margin: 30vh auto 20px auto;
+}
+.game4 > h4 {
+    margin: 22vh auto 20px auto;
+}
+
+
+/* How To Play Casino */
+
+.how-to-play-casino > div > .col {
+    display: inline-block;
+}
+.how-to-play-casino > div > .col > h5 {
+    margin: 20px 0;
+}
+
+.register-info {
+    width: 35vh;
+    height: 25vh;
+    background-image: url(../img/register-info.png);
+}
+.register-info-hover:hover {
+    border: 2px solid #bd3b42;
+    transition: 0.3s;
+}
+.deposite-your-money {
+    width: 35vh;
+    height: 25vh;
+    background-image: url(../img/deposite-your-money.png);
+}
+.free-days {
+    width: 35vh;
+    height: 25vh;
+    background-image: url(../img/14-days-free.png);
+}
+.play-online {
+    width: 35vh;
+    height: 25vh;
+    background-image: url(../img/play-online.png);
+}
+.register-info,
+.deposite-your-money,
+.free-days,
+.play-online {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+
+
+/* Our Casino Price */
+
+.basic-plan {
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    padding: 10px 40px;
+    text-align: center;
+}
+.basic-plan > h5 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #bd3b42;
+}
+.dollor {
+    font-size: 23pt;
+    color: #bd3b42;
+}
+.fifteen {
+    font-size: 60pt;
+}
+.month {
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* What Is Says Our Customer */
+
+@media (min-width: 300px) and (max-width: 412px) {
+    .what-is-say-our-customer > h1 {
+        text-align: left;
+        font-size: 18pt;
+    }
+}
+
+.what-is-say-our-customer > img {
+    width: 180px;
+    height: auto;
+
+    border: 3px solid #bd3b42;
+    border-radius: 50%;
+}
+.what-is-say-our-customer > h5 {
+    margin: 15px 0;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* Get In Touch */
+
+.get-in-touch > row {
+    border: 2px solid black;
+}
+
+
+/* Footer */
+
+.footer > .container {
+    text-align: center;
+}
+.footer > .container > input {
+    width: 300px;
+}
+.footer > .container > p {
+    font-size: 12pt;
+    color: gray;
+}
+.footer > .container > hr {
+    color: white;
+    width: 230px;
+    margin: 30px auto;
+}
+
+.footer > .container > span {
+    color: white;
+}
+
+@media (max-width: 990px) {
+    .footer > .container > .row > .col-sm > span {
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .footer > .container > .row > .col-sm {
+        display: block;
+        margin: 20px 0;
+    }
+    .footer > .container > .row > .col-sm > span {
+        display: inline;
+    }
+}
+
+
+/* Button */
+
+.btn {
+    margin-top: 25px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    color: gold;
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: #f8e043;
+    color: black;
+}
+
+.btn-play {
+    color: white;
+    background-color: black;
+    border: 2px solid #bd3b42;
+}
+.btn-play:hover {
+    color: white;
+    background-color: #bd3b42;
+}
+
+.btn-buy {
+    color: white;
+    background-color: #bd3b42;
+    border: 2px solid #bd3b42;
+}
+.btn-buy:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Go to Top */
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #555; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+}
+
+#myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}
+
+
+/* Title */
+
+.page-title {
+    letter-spacing: 2px;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+/*  */
+
+.card > h4,
+.card > h3, 
+.card > p ,
+.how-to-play-casino,
+.our-casio-price,
+.what-is-say-our-customer,
+.get-in-touch,
+.game > h1 , .game > p  {
+    text-align: center;
+}

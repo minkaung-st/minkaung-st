@@ -1,0 +1,112 @@
+.nav-item:hover {
+    background-color: rgb(179, 174, 174);
+    color: white;
+}
+.nav-item > a:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.line {
+    width: 100px;
+    margin: auto;
+}
+
+img {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.col-md-6 > p , .card-text , .col-md-5 , .col-md-8 > p {
+    text-align: justify;
+}
+
+.service {
+    display: inline-block;
+}
+
+.opening { 
+    display: inline-block;
+    border-left: 4px solid #60b3c5;
+    padding: 0 0 0 15px;
+}
+
+/*  */ 
+.navbar-nav li:hover {
+    border-radius: 15px;
+}
+
+
+/* Go to Top */
+#myBtn {
+    display: none; /* Hide the button by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+  
+  #myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}
+
+
+/* Light/Dark mode */
+
+/* Light mode styles */
+:root {
+    --background-color: #f7f7f7;
+    --text-color: #333;
+    --link-color: #007bff;
+}
+  
+/* Dark mode styles */
+.dark-mode {
+    --background-color: #333;
+    --text-color: #f7f7f7;
+    --link-color: #68d0ff;
+}
+  
+body, .card {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+  
+a {
+    color: var(--link-color);
+}
+
+
+/* Choose a Catheory */
+.dropdown-menu {
+    background-color: #f7f7f7;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+  
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+  
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #e7e7e7;
+    color: #333;
+}
+  

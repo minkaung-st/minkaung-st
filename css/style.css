@@ -1,0 +1,149 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Font Family */ /* Roboto Slab*/
+.MinKaungST {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+#greeting , footer > p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HOME */
+
+/* Navigation */
+.navbar {
+    margin: 0 0 1px 0;
+    background-color: black;
+}
+.logo-img {
+    width: 85px;
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #55555577;
+}
+.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav-item:hover {
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+@media (max-width: 767px) {
+    /*col-md*/
+    .nav-item:hover {
+        border: none;
+        transition: none;
+    }
+}
+.nav-link {
+    color: white;
+    font-family: 'Calistoga', cursive;
+}
+
+/* Body */
+.body {
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bg-img {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../img/background-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* btn-about */
+.btn-about > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Calistoga', cursive;
+}
+.btn-about:hover {
+    background-color: gray;
+    transition: 0.3s;
+}
+.btn-about > a:hover {
+    color: white;
+}
+
+/* About-body */
+.about-body {
+    background-color: rgb(70, 70, 70);
+}
+.about-body .title-name {
+    text-align: center;
+}
+.about-body .title-name > img {
+    width: 150px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+}
+.about-body .container > .card {
+        margin: 0 auto;
+}
+
+/* Footer */ 
+footer > a {
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+footer > i {
+    color: white;
+    font-size: 23pt;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* BLOG */
+.blog .nav-link {
+    color: black;
+}
+.blog .nav-item:hover {
+    border-bottom: 2px solid black;
+}
+@media (max-width: 767px) {
+    .blog .nav-item:hover {
+        border: none;
+        transition: none;
+    }
+    .space {
+        margin-top: 180px;
+    }
+}
+
+/* Go to Top */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #555; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+}
+
+#myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}

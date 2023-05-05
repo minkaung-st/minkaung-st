@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="x-icon" href="img/logo.png">
+
+    <title>MinKaung ST</title>
+
+    <!-- Include Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <!-- External Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            
+            <img src="img/logo.png" class="logo-img mx-5">
+
+            <button class="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/toogle-icon.png" class="navbar-toggler-icon">
+            </button>
+
+            <div class="collapse navbar-collapse position-absolute w-100" id="navbarNav"> 
+                <ul class="navbar-nav mx-2">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+
+        <div class="bg-img">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-center">
+
+                        <img src="img/MKST.png" 
+                            style="width: 200px; border: 3px solid #ffff9ecb; border-radius: 50%;
+                        "> 
+
+                        <h5 class="text-white mt-3 MinKaungST">Min Kaung ST</h5>
+
+                        <h5 class="text-white my-3"> 
+                            <i class="fa-solid fa-w fa-lg"></i>EB <i class="fa-solid fa-d fa-lg"></i>EVELOPER 
+                        </h5>
+
+                        <p class="text-white my-5" id="greeting">
+                            Hello There ! <br>
+                            Welcome to my personal profile portfolio
+                        </p> 
+                        <script>
+                            $(document).ready(function() {
+                                $('#greeting').hide().fadeIn(1000);
+                            });
+                        </script>
+
+                        <button class="btn-about px-3 py-2"
+                                style="border: 2px solid #ffff9ed2; border-radius: 20px;"> 
+                            <a href="pages/about-me.html"> About Me </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container text-center" id="contact">
+
+        <h3 class="text-center my-5"> <i class="fa-solid fa-c fa-2xl"></i> <span style="color: rgb(128, 128, 128);"> ONTACT</span></h3>
+
+        <div class="col-md-6"
+            style=" border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+            margin: auto;">
+            <div class="card-body" style="background-color: rgba(128, 128, 128, 0.068);">
+
+                <h5 class="my-5"><i class="fa-solid fa-m fa-lg"></i>ail</h5>
+                <p> 
+                    <i class="fa-solid fa-envelope fa-2xl"></i> minkaungst <i class="fa-regular fa-at fa-lg"></i> gmail.com 
+                </p>
+
+                <h5 class="my-5"><i class="fa-solid fa-h fa-lg"></i>ot <i class="fa-solid fa-l fa-lg"></i>ine </h5>
+                <p> <i class="fa-solid fa-phone fa-2xl"></i> 09 759 039 057 </p>
+
+                <h5 class="my-5"> <i class="fa-solid fa-v fa-lg"></i>iber </h5>
+                <p> <i class="fa-brands fa-viber fa-2xl"></i> +95 9 759 039 057</p>
+                
+                <h5 class="my-5"><i class="fa-solid fa-a fa-lg"></i>dress </h5>
+                <p> 
+                    <i class="fa-solid fa-house fa-2xl"></i> 75(B) Damayone St , Moe Kaung Rd <br> Yankin , Yangon
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer class="bg-dark mt-5 py-5 text-center">
+
+        <a href="https://www.facebook.com/MinKaungST" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
+        <a href="https://www.instagram.com/minkaung.st/" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+        <a href="https://twitter.com/MinKaungST1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://github.com/minkaungsanthar" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+        <hr class="bg-white my-4" style="width: 300px; margin: auto;">
+
+        <p class="text-white"> 
+            “ Special thanks to every single one who helped ” <br><br>
+            Copyright &copy; 2023 By MinKaunST <br> All Right Reserve. 
+        </p>
+    </footer>
+
+	<!--  Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+</body>
+</html>
