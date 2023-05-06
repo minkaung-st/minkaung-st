@@ -7,7 +7,7 @@
     letter-spacing: 1px;
     font-size: 23px;
 }
-#greeting , footer > p {
+.greeting , footer > p {
     font-family: 'Raleway', sans-serif;
 }
 
