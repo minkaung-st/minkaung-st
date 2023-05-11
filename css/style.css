@@ -112,20 +112,28 @@ footer > i {
 }
 
 /* BLOG */
-.blog .nav-link {
+.body .nav-link {
     color: black;
 }
-.blog .nav-item:hover {
+.body .nav-item:hover {
     border-bottom: 2px solid black;
 }
 @media (max-width: 767px) {
-    .blog .nav-item:hover {
+    .body .nav-item:hover {
         border: none;
         transition: none;
     }
     .space {
         margin-top: 180px;
     }
+}
+
+#bloG .carousel-control-prev-icon , #bloG .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 50%;
+}
+#bloG .card , .story-of-my-life {
+    border-radius: 20px;
 }
 
 /* Go to Top */
